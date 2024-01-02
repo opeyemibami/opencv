@@ -1,4 +1,4 @@
-import cv2
+import cv2 as cv
 import pathlib
 
 base_dir = pathlib.Path(__file__).parent.parent.parent
@@ -6,10 +6,13 @@ base_dir = pathlib.Path(__file__).parent.parent.parent
 
 # read image 
 image_path = str(base_dir.joinpath('data','panda.jpg'))
-image = cv2.imread(image_path)
+image = cv.imread(image_path)
 
+# write image
+cv.imwrite(image_path,image)
 
 # visualize image
-cv2.imshow("image",image)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+cv.imshow("image",image)
+cv.waitKey(0)
+cv.destroyAllWindows()
+# TODO Write captured video to memory 

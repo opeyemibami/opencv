@@ -16,3 +16,4 @@ while ret:
         cv2.waitKey(40)   #40 milisecs for video with 25frames/sec
 video.release()
 cv2.destroyAllWindows()
+# TODO Write captured video to memory 
