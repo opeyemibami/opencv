@@ -25,6 +25,16 @@
   - crop image by indexing
   - visualize cropped image
   - set waitkey
+
+   ColorSpace convertion:
+
+  - import libraries
+  - define image path
+  - read image
+  - visualize image
+  - change color space 
+  - visualize new image
+  - set waitkey
   
 
 - ## Use cases and scenario

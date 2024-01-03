@@ -14,5 +14,4 @@ cv.imwrite(image_path,image)
 # visualize image
 cv.imshow("image",image)
 cv.waitKey(0)
-cv.destroyAllWindows()
 # TODO Write captured video to memory 
