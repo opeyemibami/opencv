@@ -1,7 +1,7 @@
 import cv2 as cv
 import pathlib
 
-base_dir = pathlib.Path(__file__).parent.parent.parent
+base_dir = pathlib.Path(__file__).parent.parent
 
 
 # read image 

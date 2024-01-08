@@ -2,7 +2,7 @@ import cv2 as cv
 import pathlib 
 import numpy as np
 
-base_dir = pathlib.Path(__file__).parents[3]
+base_dir = pathlib.Path(__file__).parents[2]
 img_path = str(base_dir.joinpath("data","yhemmy1.jpg"))
 # read image
 img = cv.imread(img_path)

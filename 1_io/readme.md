@@ -3,7 +3,7 @@
 # Knowledge
 
 - ## Brief explanation
-  Reading inputs such as image, video, or from sensors such as webcame
+  Reading inputs such as image, video, or from sensors such as webcame and saving them after processing/ desired operation has been performed
 - ## Psuedocode / Major Steps
 
   image:
@@ -22,7 +22,8 @@
   - define video path
   - read video
   - visualize video by frame
-  - write video
+  - Perform deesired operation on frame
+  - write frame to video output
   - set waitkey
   - release memory
   - destroy all window
@@ -32,7 +33,8 @@
   - import libraries
   - read / capture video from webcam
   - visualize video by frame
-  - write video
+  - Perform deesired operation on frame
+  - write frame to video output
   - set waitkey
   - release memory
   - destroy all window
