@@ -12,5 +12,5 @@ def get_limits(color_in_BGR):
     lower_limit = hsvColorFrame[0][0][0] - 10, 100, 100 #OpenCV uses H: 0-179, S: 0-255, V: 0-255
     lower_limit = np.uint8([[np.uint8([lower_limit[0], 100, 100])]])
     upper_limit = hsvColorFrame[0][0][0] + 10, 255, 255 #OpenCV uses H: 0-179, S: 0-255, V: 0-255
-    upper_limit = np.uint8([[np.uint8([upper_limit[0], 100, 100])]])
+    upper_limit = np.uint8([[np.uint8([upper_limit[0], 255, 255])]])
     return lower_limit, upper_limit

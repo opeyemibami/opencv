@@ -10,8 +10,8 @@ if not cap.isOpened():
     print("Cannot open camera")
     exit()
 
-# color_to_detect = [255,0,0] #lawnGreen in BGR colorspace
-color_to_detect = [0,100,80] #lawnGreen in BGR colorspace
+# color_to_detect = [255,0,0] #blue in BGR colorspace
+color_to_detect = [222,126,91] #Malibu Blue in BGR colorspace
 
 while(True):
     # take each frame
@@ -25,7 +25,6 @@ while(True):
 
     # get upper and lower limits of color of interest for detection
     lower_limit, upper_limit = get_limits(color_to_detect)
-
 
     # define mask
     mask = cv.inRange(hsv_img,lower_limit,upper_limit)
