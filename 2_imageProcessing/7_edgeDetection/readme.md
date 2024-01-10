@@ -1,8 +1,9 @@
-# Title: Image processing basics
+# Title: Edge detection
 
 # Knowledge
 
 - ## Brief explanation
+  
    
 - ## Psuedocode / Major Steps
 
